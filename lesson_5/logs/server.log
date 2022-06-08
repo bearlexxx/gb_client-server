@@ -1,0 +1,3 @@
+2022-06-02 07:43:37,293  DEBUG     server      HTTP/1.1: 200 OK :: presence::
+2022-06-02 07:46:40,778  DEBUG     server      HTTP/1.1: 200 OK :: presence::
+2022-06-02 07:47:46,648  DEBUG     server      HTTP/1.1: 200 OK :: presence::

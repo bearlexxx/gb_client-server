@@ -1,0 +1,257 @@
+2022-06-02 07:39:13,207  WARNING   client      Без указания адреса и порта применяются настройки по умолчанию 127.0.0.1:7777
+2022-06-02 07:39:13,207  DEBUG     client      Socket created. Account name: Guest
+2022-06-02 07:43:37,293  WARNING   client      Без указания адреса и порта применяются настройки по умолчанию 127.0.0.1:7777
+2022-06-02 07:43:37,293  DEBUG     client      Socket created. Account name: Guest
+2022-06-02 07:43:37,293  DEBUG     client      HTTP/1.1: 200 OK  :: 200 ::
+2022-06-02 07:44:46,147  WARNING   client      Без указания адреса и порта применяются настройки по умолчанию 127.0.0.1:7777
+2022-06-02 07:44:46,163  DEBUG     client      Socket created. Account name: Guest
+2022-06-02 07:46:40,762  WARNING   client      Без указания адреса и порта применяются настройки по умолчанию 127.0.0.1:7777
+2022-06-02 07:46:40,778  DEBUG     client      Socket created. Account name: Guest
+2022-06-02 07:46:40,778  DEBUG     client      HTTP/1.1: 200 OK  :: 200 ::
+2022-06-02 07:47:46,648  WARNING   client      Без указания адреса и порта применяются настройки по умолчанию 127.0.0.1:7777
+2022-06-02 07:47:46,648  DEBUG     client      Socket created. Account name: Guest
+2022-06-02 07:47:46,648  DEBUG     client      HTTP/1.1: 200 OK  :: 200 ::
+2022-06-05 12:24:10,828  WARNING   client      Без указания адреса и порта применяются настройки по умолчанию 127.0.0.1:7777
+2022-06-05 12:24:10,843  DEBUG     client      Socket created. Account name: Guest
+2022-06-05 12:24:10,843  INFO      decorators  вызов create_presence() с параметрами ('Guest',) {} из функции main
+2022-06-05 12:24:10,843  INFO      decorators  вызов send_message() с параметрами (<socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 53389), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654421050.843804, 'user': {'account_name': 'Guest'}}) {} из функции main
+2022-06-05 12:24:10,859  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 53389), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-05 12:24:10,859  DEBUG     client      HTTP/1.1: 200 OK  :: 200 ::
+2022-06-05 12:24:10,859  INFO      decorators  вызов process_ans() с параметрами ({'response': 200},) {} из функции main
+2022-06-08 21:47:18,219  INFO      decorators  вызов arg_parser() с параметрами () {} из функции main
+2022-06-08 21:47:18,220  INFO      client_send  Клиент запущен со следующими параметрами: 127.0.0.1:7777, Mode: send
+2022-06-08 21:47:18,224  DEBUG     client_send  Socket created. Account name: Guest
+2022-06-08 21:47:18,225  INFO      decorators  вызов create_presence() с параметрами ('Guest',) {} из функции main
+2022-06-08 21:47:18,226  INFO      decorators  вызов send_message() с параметрами (<socket.socket fd=476, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55529), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654714038.2241929, 'user': {'account_name': 'Guest'}}) {} из функции main
+2022-06-08 21:47:18,230  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=476, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55529), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-08 21:47:18,232  DEBUG     client_send  HTTP/1.1: 200 OK  :: 200 ::
+2022-06-08 21:47:18,232  INFO      decorators  вызов process_ans() с параметрами ({'response': 200},) {} из функции main
+2022-06-08 21:47:25,918  INFO      decorators  вызов arg_parser() с параметрами () {} из функции main
+2022-06-08 21:47:25,918  INFO      client      Клиент запущен со следующими параметрами: 127.0.0.1:7777, Mode: listen
+2022-06-08 21:47:25,922  DEBUG     client      Socket created. Account name: Guest
+2022-06-08 21:47:25,923  INFO      decorators  вызов create_presence() с параметрами ('Guest',) {} из функции main
+2022-06-08 21:47:25,923  INFO      decorators  вызов send_message() с параметрами (<socket.socket fd=420, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55530), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654714045.9222033, 'user': {'account_name': 'Guest'}}) {} из функции main
+2022-06-08 21:47:25,939  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=420, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55530), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-08 21:47:25,940  DEBUG     client      HTTP/1.1: 200 OK  :: 200 ::
+2022-06-08 21:47:25,940  INFO      decorators  вызов process_ans() с параметрами ({'response': 200},) {} из функции main
+2022-06-08 21:47:45,100  DEBUG     client_send  Сформирован словарь сообщения: {'action': 'msg', 'time': 1654714065.1005442, 'account_name': 'Guest', 'message': 'hi'}
+2022-06-08 21:47:45,100  INFO      decorators  вызов create_message() с параметрами (<socket.socket fd=476, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55529), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-08 21:47:45,101  INFO      decorators  вызов send_message() с параметрами (<socket.socket fd=476, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55529), raddr=('127.0.0.1', 7777)>, {'action': 'msg', 'time': 1654714065.1005442, 'account_name': 'Guest', 'message': 'hi'}) {} из функции main
+2022-06-08 21:47:45,339  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=420, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55530), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-08 21:47:45,340  INFO      client      Получено сообщение от пользователя Guest:
+hi
+2022-06-08 21:47:45,340  INFO      decorators  вызов process_ans() с параметрами ({'action': 'msg', 'sender': 'Guest', 'time': 1654714065.3373723, 'message': 'hi'},) {} из функции main
+2022-06-08 21:47:58,042  INFO      client_send  Завершение работы по команде пользователя.
+2022-06-08 21:52:08,521  INFO      decorators  вызов arg_parser() с параметрами () {} из функции main
+2022-06-08 21:52:08,521  INFO      client      Клиент запущен со следующими параметрами: 127.0.0.1:7777, Mode: listen
+2022-06-08 21:52:08,532  INFO      decorators  вызов arg_parser() с параметрами () {} из функции main
+2022-06-08 21:52:08,532  INFO      client      Клиент запущен со следующими параметрами: 127.0.0.1:7777, Mode: listen
+2022-06-08 21:52:08,537  INFO      decorators  вызов arg_parser() с параметрами () {} из функции main
+2022-06-08 21:52:08,537  INFO      client      Клиент запущен со следующими параметрами: 127.0.0.1:7777, Mode: listen
+2022-06-08 21:52:08,547  INFO      decorators  вызов arg_parser() с параметрами () {} из функции main
+2022-06-08 21:52:08,548  INFO      client      Клиент запущен со следующими параметрами: 127.0.0.1:7777, Mode: listen
+2022-06-08 21:52:08,551  DEBUG     client      Socket created. Account name: Guest
+2022-06-08 21:52:08,551  INFO      decorators  вызов create_presence() с параметрами ('Guest',) {} из функции main
+2022-06-08 21:52:08,552  INFO      decorators  вызов send_message() с параметрами (<socket.socket fd=372, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55553), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654714328.55116, 'user': {'account_name': 'Guest'}}) {} из функции main
+2022-06-08 21:52:08,554  DEBUG     client      Socket created. Account name: Guest
+2022-06-08 21:52:08,554  INFO      decorators  вызов create_presence() с параметрами ('Guest',) {} из функции main
+2022-06-08 21:52:08,555  INFO      decorators  вызов send_message() с параметрами (<socket.socket fd=464, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55555), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654714328.5541558, 'user': {'account_name': 'Guest'}}) {} из функции main
+2022-06-08 21:52:08,557  INFO      decorators  вызов arg_parser() с параметрами () {} из функции main
+2022-06-08 21:52:08,557  INFO      client      Клиент запущен со следующими параметрами: 127.0.0.1:7777, Mode: listen
+2022-06-08 21:52:08,558  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=372, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55553), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-08 21:52:08,559  DEBUG     client      HTTP/1.1: 200 OK  :: 200 ::
+2022-06-08 21:52:08,559  INFO      decorators  вызов process_ans() с параметрами ({'response': 200},) {} из функции main
+2022-06-08 21:52:08,562  DEBUG     client      Socket created. Account name: Guest
+2022-06-08 21:52:08,562  INFO      decorators  вызов create_presence() с параметрами ('Guest',) {} из функции main
+2022-06-08 21:52:08,563  INFO      decorators  вызов send_message() с параметрами (<socket.socket fd=432, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55556), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654714328.562155, 'user': {'account_name': 'Guest'}}) {} из функции main
+2022-06-08 21:52:08,564  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=464, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55555), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-08 21:52:08,564  INFO      decorators  вызов arg_parser() с параметрами () {} из функции main
+2022-06-08 21:52:08,564  INFO      decorators  вызов process_ans() с параметрами ({'response': 200},) {} из функции main
+2022-06-08 21:52:08,564  INFO      client      Клиент запущен со следующими параметрами: 127.0.0.1:7777, Mode: listen
+2022-06-08 21:52:08,567  DEBUG     client      Socket created. Account name: Guest
+2022-06-08 21:52:08,567  INFO      decorators  вызов create_presence() с параметрами ('Guest',) {} из функции main
+2022-06-08 21:52:08,567  INFO      decorators  вызов arg_parser() с параметрами () {} из функции main
+2022-06-08 21:52:08,568  INFO      client      Клиент запущен со следующими параметрами: 127.0.0.1:7777, Mode: listen
+2022-06-08 21:52:08,568  INFO      decorators  вызов send_message() с параметрами (<socket.socket fd=308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55557), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654714328.567153, 'user': {'account_name': 'Guest'}}) {} из функции main
+2022-06-08 21:52:08,568  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=432, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55556), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-08 21:52:08,568  DEBUG     client      HTTP/1.1: 200 OK  :: 200 ::
+2022-06-08 21:52:08,569  INFO      decorators  вызов process_ans() с параметрами ({'response': 200},) {} из функции main
+2022-06-08 21:52:08,572  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55557), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-08 21:52:08,573  DEBUG     client      HTTP/1.1: 200 OK  :: 200 ::
+2022-06-08 21:52:08,573  INFO      decorators  вызов process_ans() с параметрами ({'response': 200},) {} из функции main
+2022-06-08 21:52:08,573  INFO      decorators  вызов arg_parser() с параметрами () {} из функции main
+2022-06-08 21:52:08,573  INFO      client      Клиент запущен со следующими параметрами: 127.0.0.1:7777, Mode: listen
+2022-06-08 21:52:08,575  DEBUG     client      Socket created. Account name: Guest
+2022-06-08 21:52:08,576  INFO      decorators  вызов create_presence() с параметрами ('Guest',) {} из функции main
+2022-06-08 21:52:08,576  INFO      decorators  вызов send_message() с параметрами (<socket.socket fd=388, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55558), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654714328.5751517, 'user': {'account_name': 'Guest'}}) {} из функции main
+2022-06-08 21:52:08,579  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=388, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55558), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-08 21:52:08,579  DEBUG     client      HTTP/1.1: 200 OK  :: 200 ::
+2022-06-08 21:52:08,580  INFO      decorators  вызов process_ans() с параметрами ({'response': 200},) {} из функции main
+2022-06-08 21:52:08,583  DEBUG     client      Socket created. Account name: Guest
+2022-06-08 21:52:08,583  INFO      decorators  вызов create_presence() с параметрами ('Guest',) {} из функции main
+2022-06-08 21:52:08,584  INFO      decorators  вызов send_message() с параметрами (<socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55559), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654714328.5830112, 'user': {'account_name': 'Guest'}}) {} из функции main
+2022-06-08 21:52:08,587  DEBUG     client      Socket created. Account name: Guest
+2022-06-08 21:52:08,587  INFO      decorators  вызов create_presence() с параметрами ('Guest',) {} из функции main
+2022-06-08 21:52:08,588  INFO      decorators  вызов send_message() с параметрами (<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55560), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654714328.5870104, 'user': {'account_name': 'Guest'}}) {} из функции main
+2022-06-08 21:52:08,588  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55559), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-08 21:52:08,588  DEBUG     client      HTTP/1.1: 200 OK  :: 200 ::
+2022-06-08 21:52:08,588  INFO      decorators  вызов process_ans() с параметрами ({'response': 200},) {} из функции main
+2022-06-08 21:52:08,593  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55560), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-08 21:52:08,593  DEBUG     client      HTTP/1.1: 200 OK  :: 200 ::
+2022-06-08 21:52:08,593  INFO      decorators  вызов process_ans() с параметрами ({'response': 200},) {} из функции main
+2022-06-08 21:52:08,706  INFO      decorators  вызов arg_parser() с параметрами () {} из функции main
+2022-06-08 21:52:08,706  INFO      client      Клиент запущен со следующими параметрами: 127.0.0.1:7777, Mode: listen
+2022-06-08 21:52:08,712  DEBUG     client      Socket created. Account name: Guest
+2022-06-08 21:52:08,713  INFO      decorators  вызов create_presence() с параметрами ('Guest',) {} из функции main
+2022-06-08 21:52:08,713  INFO      decorators  вызов send_message() с параметрами (<socket.socket fd=528, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55561), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654714328.7120118, 'user': {'account_name': 'Guest'}}) {} из функции main
+2022-06-08 21:52:08,745  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=528, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55561), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-08 21:52:08,745  DEBUG     client      HTTP/1.1: 200 OK  :: 200 ::
+2022-06-08 21:52:08,745  INFO      decorators  вызов process_ans() с параметрами ({'response': 200},) {} из функции main
+2022-06-08 21:52:08,913  INFO      decorators  вызов arg_parser() с параметрами () {} из функции main
+2022-06-08 21:52:08,913  INFO      client      Клиент запущен со следующими параметрами: 127.0.0.1:7777, Mode: listen
+2022-06-08 21:52:08,917  DEBUG     client      Socket created. Account name: Guest
+2022-06-08 21:52:08,917  INFO      decorators  вызов create_presence() с параметрами ('Guest',) {} из функции main
+2022-06-08 21:52:08,918  INFO      decorators  вызов send_message() с параметрами (<socket.socket fd=384, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55562), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654714328.9170537, 'user': {'account_name': 'Guest'}}) {} из функции main
+2022-06-08 21:52:08,920  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=384, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55562), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-08 21:52:08,920  DEBUG     client      HTTP/1.1: 200 OK  :: 200 ::
+2022-06-08 21:52:08,920  INFO      decorators  вызов process_ans() с параметрами ({'response': 200},) {} из функции main
+2022-06-08 21:52:09,053  DEBUG     client      Socket created. Account name: Guest
+2022-06-08 21:52:09,054  INFO      decorators  вызов create_presence() с параметрами ('Guest',) {} из функции main
+2022-06-08 21:52:09,054  INFO      decorators  вызов send_message() с параметрами (<socket.socket fd=468, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55554), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654714329.0534768, 'user': {'account_name': 'Guest'}}) {} из функции main
+2022-06-08 21:52:09,056  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=468, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55554), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-08 21:52:09,057  DEBUG     client      HTTP/1.1: 200 OK  :: 200 ::
+2022-06-08 21:52:09,057  INFO      decorators  вызов process_ans() с параметрами ({'response': 200},) {} из функции main
+2022-06-08 21:53:38,131  INFO      decorators  вызов arg_parser() с параметрами () {} из функции main
+2022-06-08 21:53:38,131  INFO      client      Клиент запущен со следующими параметрами: 127.0.0.1:7777, Mode: listen
+2022-06-08 21:53:38,137  INFO      decorators  вызов arg_parser() с параметрами () {} из функции main
+2022-06-08 21:53:38,138  INFO      client      Клиент запущен со следующими параметрами: 127.0.0.1:7777, Mode: send
+2022-06-08 21:53:38,176  DEBUG     client      Socket created. Account name: Guest
+2022-06-08 21:53:38,176  INFO      decorators  вызов create_presence() с параметрами ('Guest',) {} из функции main
+2022-06-08 21:53:38,176  INFO      decorators  вызов send_message() с параметрами (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63225), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654714418.1765778, 'user': {'account_name': 'Guest'}}) {} из функции main
+2022-06-08 21:53:38,178  INFO      decorators  вызов arg_parser() с параметрами () {} из функции main
+2022-06-08 21:53:38,179  INFO      client      Клиент запущен со следующими параметрами: 127.0.0.1:7777, Mode: send
+2022-06-08 21:53:38,183  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63225), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-08 21:53:38,183  DEBUG     client      HTTP/1.1: 200 OK  :: 200 ::
+2022-06-08 21:53:38,183  DEBUG     client      Socket created. Account name: Guest
+2022-06-08 21:53:38,183  INFO      decorators  вызов process_ans() с параметрами ({'response': 200},) {} из функции main
+2022-06-08 21:53:38,183  INFO      decorators  вызов create_presence() с параметрами ('Guest',) {} из функции main
+2022-06-08 21:53:38,184  INFO      decorators  вызов send_message() с параметрами (<socket.socket fd=472, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63226), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654714418.1837919, 'user': {'account_name': 'Guest'}}) {} из функции main
+2022-06-08 21:53:38,189  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=472, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63226), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-08 21:53:38,189  DEBUG     client      HTTP/1.1: 200 OK  :: 200 ::
+2022-06-08 21:53:38,189  INFO      decorators  вызов process_ans() с параметрами ({'response': 200},) {} из функции main
+2022-06-08 21:53:38,455  INFO      decorators  вызов arg_parser() с параметрами () {} из функции main
+2022-06-08 21:53:38,456  INFO      client      Клиент запущен со следующими параметрами: 127.0.0.1:7777, Mode: listen
+2022-06-08 21:53:38,463  DEBUG     client      Socket created. Account name: Guest
+2022-06-08 21:53:38,464  INFO      decorators  вызов create_presence() с параметрами ('Guest',) {} из функции main
+2022-06-08 21:53:38,464  INFO      decorators  вызов send_message() с параметрами (<socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63227), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654714418.4635153, 'user': {'account_name': 'Guest'}}) {} из функции main
+2022-06-08 21:53:38,468  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63227), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-08 21:53:38,468  DEBUG     client      HTTP/1.1: 200 OK  :: 200 ::
+2022-06-08 21:53:38,468  INFO      decorators  вызов process_ans() с параметрами ({'response': 200},) {} из функции main
+2022-06-08 21:53:38,682  DEBUG     client      Socket created. Account name: Guest
+2022-06-08 21:53:38,683  INFO      decorators  вызов create_presence() с параметрами ('Guest',) {} из функции main
+2022-06-08 21:53:38,683  INFO      decorators  вызов send_message() с параметрами (<socket.socket fd=312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63224), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654714418.6823597, 'user': {'account_name': 'Guest'}}) {} из функции main
+2022-06-08 21:53:38,686  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63224), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-08 21:53:38,686  DEBUG     client      HTTP/1.1: 200 OK  :: 200 ::
+2022-06-08 21:53:38,686  INFO      decorators  вызов process_ans() с параметрами ({'response': 200},) {} из функции main
+2022-06-08 21:54:27,400  DEBUG     client      Сформирован словарь сообщения: {'action': 'msg', 'time': 1654714467.4001536, 'account_name': 'Guest', 'message': '454'}
+2022-06-08 21:54:27,400  INFO      decorators  вызов create_message() с параметрами (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63225), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-08 21:54:27,401  INFO      decorators  вызов send_message() с параметрами (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63225), raddr=('127.0.0.1', 7777)>, {'action': 'msg', 'time': 1654714467.4001536, 'account_name': 'Guest', 'message': '454'}) {} из функции main
+2022-06-08 21:54:27,499  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63227), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-08 21:54:27,500  INFO      client      Получено сообщение от пользователя Guest:
+454
+2022-06-08 21:54:27,500  INFO      decorators  вызов process_ans() с параметрами ({'action': 'msg', 'sender': 'Guest', 'time': 1654714467.490457, 'message': '454'},) {} из функции main
+2022-06-08 21:54:27,502  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63224), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-08 21:54:27,503  INFO      client      Получено сообщение от пользователя Guest:
+454
+2022-06-08 21:54:27,504  INFO      decorators  вызов process_ans() с параметрами ({'action': 'msg', 'sender': 'Guest', 'time': 1654714467.490457, 'message': '454'},) {} из функции main
+2022-06-08 21:54:31,815  DEBUG     client      Сформирован словарь сообщения: {'action': 'msg', 'time': 1654714471.8154454, 'account_name': 'Guest', 'message': '351531'}
+2022-06-08 21:54:31,816  INFO      decorators  вызов create_message() с параметрами (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63225), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-08 21:54:31,816  INFO      decorators  вызов send_message() с параметрами (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63225), raddr=('127.0.0.1', 7777)>, {'action': 'msg', 'time': 1654714471.8154454, 'account_name': 'Guest', 'message': '351531'}) {} из функции main
+2022-06-08 21:54:32,092  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63227), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-08 21:54:32,093  INFO      client      Получено сообщение от пользователя Guest:
+351531
+2022-06-08 21:54:32,093  INFO      decorators  вызов process_ans() с параметрами ({'action': 'msg', 'sender': 'Guest', 'time': 1654714472.083873, 'message': '351531'},) {} из функции main
+2022-06-08 21:54:32,095  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63224), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-08 21:54:32,096  INFO      client      Получено сообщение от пользователя Guest:
+351531
+2022-06-08 21:54:32,096  INFO      decorators  вызов process_ans() с параметрами ({'action': 'msg', 'sender': 'Guest', 'time': 1654714472.083873, 'message': '351531'},) {} из функции main
+2022-06-08 21:54:37,326  DEBUG     client      Сформирован словарь сообщения: {'action': 'msg', 'time': 1654714477.3268645, 'account_name': 'Guest', 'message': '!!'}
+2022-06-08 21:54:37,327  INFO      decorators  вызов create_message() с параметрами (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63225), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-08 21:54:37,328  INFO      decorators  вызов send_message() с параметрами (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63225), raddr=('127.0.0.1', 7777)>, {'action': 'msg', 'time': 1654714477.3268645, 'account_name': 'Guest', 'message': '!!'}) {} из функции main
+2022-06-08 21:54:37,688  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63227), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-08 21:54:37,689  INFO      client      Получено сообщение от пользователя Guest:
+!!
+2022-06-08 21:54:37,689  INFO      decorators  вызов process_ans() с параметрами ({'action': 'msg', 'sender': 'Guest', 'time': 1654714477.6806996, 'message': '!!'},) {} из функции main
+2022-06-08 21:54:37,691  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63224), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-08 21:54:37,693  INFO      client      Получено сообщение от пользователя Guest:
+!!
+2022-06-08 21:54:37,693  INFO      decorators  вызов process_ans() с параметрами ({'action': 'msg', 'sender': 'Guest', 'time': 1654714477.6806996, 'message': '!!'},) {} из функции main
+2022-06-08 21:54:40,535  DEBUG     client      Сформирован словарь сообщения: {'action': 'msg', 'time': 1654714480.5358963, 'account_name': 'Guest', 'message': 'dsfgdsf'}
+2022-06-08 21:54:40,535  INFO      decorators  вызов create_message() с параметрами (<socket.socket fd=472, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63226), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-08 21:54:40,537  INFO      decorators  вызов send_message() с параметрами (<socket.socket fd=472, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63226), raddr=('127.0.0.1', 7777)>, {'action': 'msg', 'time': 1654714480.5358963, 'account_name': 'Guest', 'message': 'dsfgdsf'}) {} из функции main
+2022-06-08 21:54:40,765  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63227), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-08 21:54:40,766  INFO      client      Получено сообщение от пользователя Guest:
+dsfgdsf
+2022-06-08 21:54:40,766  INFO      decorators  вызов process_ans() с параметрами ({'action': 'msg', 'sender': 'Guest', 'time': 1654714480.757315, 'message': 'dsfgdsf'},) {} из функции main
+2022-06-08 21:54:40,768  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63224), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-08 21:54:40,769  INFO      client      Получено сообщение от пользователя Guest:
+dsfgdsf
+2022-06-08 21:54:40,769  INFO      decorators  вызов process_ans() с параметрами ({'action': 'msg', 'sender': 'Guest', 'time': 1654714480.757315, 'message': 'dsfgdsf'},) {} из функции main
+2022-06-08 21:54:44,535  INFO      client      Завершено по команде пользователя
+2022-06-08 21:54:52,095  INFO      client      Завершено по команде пользователя
+2022-06-08 21:56:56,065  INFO      decorators  вызов arg_parser() с параметрами () {} из функции main
+2022-06-08 21:56:56,065  INFO      client      Клиент запущен со следующими параметрами: 127.0.0.1:7777, Mode: send
+2022-06-08 21:56:56,108  INFO      decorators  вызов arg_parser() с параметрами () {} из функции main
+2022-06-08 21:56:56,108  INFO      client      Клиент запущен со следующими параметрами: 127.0.0.1:7777, Mode: listen
+2022-06-08 21:56:56,147  INFO      decorators  вызов arg_parser() с параметрами () {} из функции main
+2022-06-08 21:56:56,147  INFO      client      Клиент запущен со следующими параметрами: 127.0.0.1:7777, Mode: send
+2022-06-08 21:56:56,157  DEBUG     client      Socket created. Account name: Guest
+2022-06-08 21:56:56,158  INFO      decorators  вызов create_presence() с параметрами ('Guest',) {} из функции main
+2022-06-08 21:56:56,159  INFO      decorators  вызов send_message() с параметрами (<socket.socket fd=368, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58996), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654714616.1570108, 'user': {'account_name': 'Guest'}}) {} из функции main
+2022-06-08 21:56:56,164  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=368, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58996), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-08 21:56:56,164  DEBUG     client      HTTP/1.1: 200 OK  :: 200 ::
+2022-06-08 21:56:56,164  INFO      decorators  вызов process_ans() с параметрами ({'response': 200},) {} из функции main
+2022-06-08 21:56:56,304  INFO      decorators  вызов arg_parser() с параметрами () {} из функции main
+2022-06-08 21:56:56,305  INFO      client      Клиент запущен со следующими параметрами: 127.0.0.1:7777, Mode: listen
+2022-06-08 21:56:56,309  DEBUG     client      Socket created. Account name: Guest
+2022-06-08 21:56:56,310  INFO      decorators  вызов create_presence() с параметрами ('Guest',) {} из функции main
+2022-06-08 21:56:56,310  INFO      decorators  вызов send_message() с параметрами (<socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58997), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654714616.3097062, 'user': {'account_name': 'Guest'}}) {} из функции main
+2022-06-08 21:56:56,314  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58997), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-08 21:56:56,316  DEBUG     client      HTTP/1.1: 200 OK  :: 200 ::
+2022-06-08 21:56:56,316  INFO      decorators  вызов process_ans() с параметрами ({'response': 200},) {} из функции main
+2022-06-08 21:56:56,598  DEBUG     client      Socket created. Account name: Guest
+2022-06-08 21:56:56,599  INFO      decorators  вызов create_presence() с параметрами ('Guest',) {} из функции main
+2022-06-08 21:56:56,599  INFO      decorators  вызов send_message() с параметрами (<socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58994), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654714616.5983806, 'user': {'account_name': 'Guest'}}) {} из функции main
+2022-06-08 21:56:56,601  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58994), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-08 21:56:56,601  DEBUG     client      HTTP/1.1: 200 OK  :: 200 ::
+2022-06-08 21:56:56,602  INFO      decorators  вызов process_ans() с параметрами ({'response': 200},) {} из функции main
+2022-06-08 21:56:56,613  DEBUG     client      Socket created. Account name: Guest
+2022-06-08 21:56:56,614  INFO      decorators  вызов create_presence() с параметрами ('Guest',) {} из функции main
+2022-06-08 21:56:56,614  INFO      decorators  вызов send_message() с параметрами (<socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58995), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654714616.6137433, 'user': {'account_name': 'Guest'}}) {} из функции main
+2022-06-08 21:56:56,616  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58995), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-08 21:56:56,617  DEBUG     client      HTTP/1.1: 200 OK  :: 200 ::
+2022-06-08 21:56:56,617  INFO      decorators  вызов process_ans() с параметрами ({'response': 200},) {} из функции main
+2022-06-08 21:57:33,183  DEBUG     client      Сформирован словарь сообщения: {'action': 'msg', 'time': 1654714653.183726, 'account_name': 'Guest', 'message': 'fcxbxf'}
+2022-06-08 21:57:33,184  INFO      decorators  вызов create_message() с параметрами (<socket.socket fd=368, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58996), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-08 21:57:33,184  INFO      decorators  вызов send_message() с параметрами (<socket.socket fd=368, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58996), raddr=('127.0.0.1', 7777)>, {'action': 'msg', 'time': 1654714653.183726, 'account_name': 'Guest', 'message': 'fcxbxf'}) {} из функции main
+2022-06-08 21:57:33,256  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58997), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-08 21:57:33,257  INFO      client      Получено сообщение от пользователя Guest:
+fcxbxf
+2022-06-08 21:57:33,258  INFO      decorators  вызов process_ans() с параметрами ({'action': 'msg', 'sender': 'Guest', 'time': 1654714653.251511, 'message': 'fcxbxf'},) {} из функции main
+2022-06-08 21:57:33,262  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58995), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-08 21:57:33,264  INFO      client      Получено сообщение от пользователя Guest:
+fcxbxf
+2022-06-08 21:57:33,264  INFO      decorators  вызов process_ans() с параметрами ({'action': 'msg', 'sender': 'Guest', 'time': 1654714653.251511, 'message': 'fcxbxf'},) {} из функции main
+2022-06-08 21:57:36,951  DEBUG     client      Сформирован словарь сообщения: {'action': 'msg', 'time': 1654714656.9518266, 'account_name': 'Guest', 'message': 'fdbz'}
+2022-06-08 21:57:36,952  INFO      decorators  вызов create_message() с параметрами (<socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58994), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-08 21:57:36,952  INFO      decorators  вызов send_message() с параметрами (<socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58994), raddr=('127.0.0.1', 7777)>, {'action': 'msg', 'time': 1654714656.9518266, 'account_name': 'Guest', 'message': 'fdbz'}) {} из функции main
+2022-06-08 21:57:37,335  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58997), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-08 21:57:37,336  INFO      client      Получено сообщение от пользователя Guest:
+fdbz
+2022-06-08 21:57:37,337  INFO      decorators  вызов process_ans() с параметрами ({'action': 'msg', 'sender': 'Guest', 'time': 1654714657.330336, 'message': 'fdbz'},) {} из функции main
+2022-06-08 21:57:37,341  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58995), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-08 21:57:37,341  INFO      client      Получено сообщение от пользователя Guest:
+fdbz
+2022-06-08 21:57:37,342  INFO      decorators  вызов process_ans() с параметрами ({'action': 'msg', 'sender': 'Guest', 'time': 1654714657.330336, 'message': 'fdbz'},) {} из функции main
+2022-06-08 21:57:41,751  INFO      client      Завершено по команде пользователя
+2022-06-08 21:57:47,504  INFO      client      Завершено по команде пользователя
