@@ -1,0 +1,20 @@
+2022-06-02 07:39:13,207  WARNING   client      Без указания адреса и порта применяются настройки по умолчанию 127.0.0.1:7777
+2022-06-02 07:39:13,207  DEBUG     client      Socket created. Account name: Guest
+2022-06-02 07:43:37,293  WARNING   client      Без указания адреса и порта применяются настройки по умолчанию 127.0.0.1:7777
+2022-06-02 07:43:37,293  DEBUG     client      Socket created. Account name: Guest
+2022-06-02 07:43:37,293  DEBUG     client      HTTP/1.1: 200 OK  :: 200 ::
+2022-06-02 07:44:46,147  WARNING   client      Без указания адреса и порта применяются настройки по умолчанию 127.0.0.1:7777
+2022-06-02 07:44:46,163  DEBUG     client      Socket created. Account name: Guest
+2022-06-02 07:46:40,762  WARNING   client      Без указания адреса и порта применяются настройки по умолчанию 127.0.0.1:7777
+2022-06-02 07:46:40,778  DEBUG     client      Socket created. Account name: Guest
+2022-06-02 07:46:40,778  DEBUG     client      HTTP/1.1: 200 OK  :: 200 ::
+2022-06-02 07:47:46,648  WARNING   client      Без указания адреса и порта применяются настройки по умолчанию 127.0.0.1:7777
+2022-06-02 07:47:46,648  DEBUG     client      Socket created. Account name: Guest
+2022-06-02 07:47:46,648  DEBUG     client      HTTP/1.1: 200 OK  :: 200 ::
+2022-06-05 12:24:10,828  WARNING   client      Без указания адреса и порта применяются настройки по умолчанию 127.0.0.1:7777
+2022-06-05 12:24:10,843  DEBUG     client      Socket created. Account name: Guest
+2022-06-05 12:24:10,843  INFO      decorators  вызов create_presence() с параметрами ('Guest',) {} из функции main
+2022-06-05 12:24:10,843  INFO      decorators  вызов send_message() с параметрами (<socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 53389), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654421050.843804, 'user': {'account_name': 'Guest'}}) {} из функции main
+2022-06-05 12:24:10,859  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 53389), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-05 12:24:10,859  DEBUG     client      HTTP/1.1: 200 OK  :: 200 ::
+2022-06-05 12:24:10,859  INFO      decorators  вызов process_ans() с параметрами ({'response': 200},) {} из функции main
